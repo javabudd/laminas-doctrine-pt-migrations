@@ -1,0 +1,17 @@
+{
+  "name": "javabudd/laminas-doctrine-pt-migrations",
+  "require": {
+    "laminas/laminas-mvc-console": "^1.2.0",
+    "doctrine/migrations": "^2.3.0",
+    "doctrine/doctrine-orm-module": "^2.1.7",
+    "php": "<=8"
+  },
+  "autoload": {
+    "psr-4": {
+      "Laminas\\DoctrinePTMigrations\\": "src/"
+    }
+  },
+  "require-dev": {
+    "roave/security-advisories": "dev-master"
+  }
+}
